@@ -8,10 +8,24 @@ h1{
     font-weight: bold;
 }
 
+h2{
+    color:teal;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    color:teal;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #tealbackground {
     background-color: teal;
     color: white;
-    width: 200px;
+    width: 140px;
+    padding: 15px;
+    margin-bottom:0px;
 }
 
 #info{
@@ -19,12 +33,13 @@ h1{
 }
 
 #viz{
-    width: 150px;
-    height: 150px
+    width: 120px;
+    height: 120px;
+    margin-left:10px;
 }
 
 #featured{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     float: left;
 }

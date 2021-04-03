@@ -1,3 +1,4 @@
+<!-- Set up html-->
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -10,7 +11,106 @@
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <!-- Create the grid-->
+
+    <div class="container">
+        <!-- 1st row-->
+        <div class="row">
+            <div class="col-1">
+                <h1 id="tealbackground">Latitude</h1>
+            </div>
+            <div class="col-md-8 col-sm-4 col-xs-1">Nothing</div>
+            <div class="col-md-2 col-xs-1">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Plot
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="Resources\Fig1.png">Max Temperature</a></li>
+                                        <li><a class="dropdown-item" href="Resources\Fig2.png">Humidity</a></li>
+                                        <li><a class="dropdown-item" href="Resources\Fig3.png">Cloudiness</a></li>
+                                        <li><a class="dropdown-item" href="Resources\Fig4.png">Wind Speed</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Comparison</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Data</a>
+                                </li>
+                                <div class="collapse" id="navbarToggleExternalContent">
+                                    <div class="bg-dark p-4">
+                                        <h5 class="text-white h4">Collapsed content</h5>
+                                        <span class="text-muted">Toggleable via the navbar brand.</span>
+                                    </div>
+                                </div>
+                                <nav class="navbar navbar   ">
+                                    <div class="container-fluid">
+                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#navbarToggleExternalContent"
+                                            aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">
+                                            <span class="navbar-toggler-icon"></span>
+                                        </button>
+                                    </div>
+                                </nav>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+
+            </div>
+        </div>
+        <!-- 2nd row = empty row-->
+        <div class="row">
+            <div class="col-12" id="grayspace">Empty Row</div>
+        </div>
+        <!-- 3rd row-->
+        <div class="row">
+            <div class="col-0 col-md-1" id="grayspace">Empty stuff</div>
+            <div class="col-md-6" id="info">
+                <figure class="box">
+                    <h2>Summary: Latitude vs. X</h2>
+                    <img id="featured" src="Resources\Fig1.png">
+                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
+                        To
+                        accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset
+                        on
+                        over 500 cities.</p>
+                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
+                        latitude.
+                        Factors we looked at included: temperature, cloudiness, humidity and wind speed. This site
+                        provides
+                        the source data and visualizations created as part of the analysis, as well as explanations and
+                        descriptions of any trends and correlations witnessed</p>
+                </figure>
+            </div>
+            <div class="col-0 col-md-1" id="grayspace">Empty stuff</div>
+            <div class="col-md-3" id="info">
+                <figure class="box">
+                    <h3>Visualizations</h3>
+                    <img id="viz" src="Resources\Fig1.png">
+                    <img id="viz" src="Resources\Fig2.png">
+                    <img id="viz" src="Resources\Fig3.png">
+                    <img id="viz" src="Resources\Fig4.png">
+                </figure>
+            </div>
+            <div class="col-md-1 col-sm-0" id="grayspace">More empty stuff</div>
+        </div>
+        <!-- 4th row = empty row-->
+        <div class="row">
+            <div class="col-12" id="grayspace">Empty Row</div>
+        </div>
+
+    </div>
+
 
 
 

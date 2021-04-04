@@ -64,6 +64,20 @@ h3{
     float: left;
 }
 
+#compare{
+
+    width: 48%;
+    position: relative;
+    left: 10px;
+
+}
+
+#compare:hover{
+    opacity: 0.5;
+    border-style: solid;
+    border-color: red;
+}
+
 #main_graph{
     display: block;
     margin-left: auto;
@@ -80,4 +94,19 @@ h3{
 p{
     text-align: justify;
     font-size: 1.25em;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: left;
+  font-size: 1em;
+}
+
+tr:nth-child(even) {
+    background-color:lightgrey;
+}
+
+th {
+  background-color:black;
+  color: white;
 }

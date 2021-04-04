@@ -21,7 +21,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <div class="d-flex bd-highlight mb-3"></div>
-                <div class="me-auto p-2 bd-highlight"><a class="navbar-brand" href="/index.html">
+                <div class="me-auto p-2 bd-highlight"><a class="navbar-brand" href="./index.html">
                         <img src="https://s3.amazonaws.com/revue/profiles/images/000/053/197/thumb/latitudes_square_blue.png?1572550333 "
                             alt="Latitude" width="55" height="55"> L-attitude</a>
                 </div>
@@ -29,8 +29,8 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Plots
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -41,7 +41,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./comparison.html">Comparison</a>
+                            <a class="nav-link active" href="./comparison.html">Comparison</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./data.html">Data</a>
@@ -63,22 +63,13 @@
         <div class="row">
             <div class="col-md-8" id="info">
 
-                <h2>Summary: Latitude vs. X</h2>
+                <h2>Comparison</h2>
                 <hr>
-                <img id="featured" src="Resources\Fig1.png">
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
-                    To
-                    accomplish this analysis, we first pulled data from the <b>OpenWeatherMap API</b> to assemble a
-                    dataset
-                    on
-                    over 500 cities.</p>
-                <p>After assembling the dataset, we used <b>Matplotlib</b> to plot various aspects of the weather
-                    vs.
-                    latitude.
-                    Factors we looked at included: temperature, cloudiness, humidity and wind speed. This site
-                    provides
-                    the source data and visualizations created as part of the analysis, as well as explanations and
-                    descriptions of any trends and correlations witnessed</p>
+                <a href="./temperature.html"><img id="compare" src="Resources\Fig1.png"></a>
+                <a href="./humidity.html"><img id="compare" src="Resources\Fig2.png"></a>
+                <a href="./cloudiness.html"><img id="compare" src="Resources\Fig3.png"></a>
+                <a href="./wind.html"><img id="compare" src="Resources\Fig4.png"></a>
+
 
             </div>
             <div class="col-0 col-md-1" id="grayspace">Empty stuff</div>
@@ -86,12 +77,12 @@
 
                 <h3>Visualizations</h3>
                 <hr>
-                <a href="">
+                <a href="./temperature.html">
                     <img id="viz" src="Resources\Fig1.png"></a>
-                <a href="">
+                <a href="./humidity.html">
                     <img id="viz" src="Resources\Fig2.png"></a>
-                <a href=""><img id="viz" src="Resources\Fig3.png"></a>
-                <a href=""><img id="viz" src="Resources\Fig4.png"></a>
+                <a href="./cloudiness.html"><img id="viz" src="Resources\Fig3.png"></a>
+                <a href="./wind.html"><img id="viz" src="Resources\Fig4.png"></a>
 
             </div>
 

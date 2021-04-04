@@ -2,6 +2,10 @@
     background-color: lightgrey;
 }
 
+body{
+    background-color: lightgrey;
+}
+
 h1{
     font-size:x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,16 +24,25 @@ h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#tealbackground {
+.navbar-brand {
+
+    font-size:x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.navbar-toggler{
     background-color: teal;
-    color: white;
-    width: 140px;
+    color: rgb(197, 107, 107);
     padding: 15px;
     margin-bottom:0px;
+    font-size:x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 #info{
-    border: 1cm lightgrey;
+    background-color: white;
 }
 
 #viz{
@@ -42,4 +55,9 @@ h3{
     width: 200px;
     height: 200px;
     float: left;
+}
+
+.box{
+
+    background-color: white;
 }

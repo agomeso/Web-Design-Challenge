@@ -7,21 +7,21 @@ body{
 }
 
 h1{
-    font-size:2em;
+    font-size:2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
 h2{
-    font-size:2em;
-    color:teal;
+    font-size:3vw;
+    color:rgb(23, 32, 160);
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3{
-    font: size 1.5em;
-    color:teal;
+    font-size: 2vw;
+    color:rgb(247, 19, 19);
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -46,7 +46,9 @@ h3{
 #info{
     background-color: white;
     padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #viz{
@@ -103,7 +105,7 @@ p{
 table, th, td {
   border: 1px solid black;
   text-align: left;
-  font-size: 1em;
+  font-size: 1vw;
 }
 
 tr:nth-child(even) {
@@ -113,4 +115,8 @@ tr:nth-child(even) {
 th {
   background-color:black;
   color: white;
+}
+
+table {
+  width: 100%;
 }
